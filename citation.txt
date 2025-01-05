@@ -1,0 +1,11 @@
+@inproceedings{REPO233,
+    author = "Lin, Zhifeng and Ding, Changxing and Yao, Huan and Kuang, Zengsheng and Huang, Shaoli",
+    booktitle = "2023 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)",
+    doi = "10.1109/CVPR52729.2023.01248",
+    keywords = "Representation learning;Convolutional codes;Fuses;Databases;Pose estimation;Force;Feature extraction;Humans: Face;body;pose;gesture;movement",
+    number = "",
+    pages = "12989-12998",
+    title = "{Harmonious Feature Learning for Interactive Hand-Object Pose Estimation}",
+    volume = "",
+    year = "2023"
+}
