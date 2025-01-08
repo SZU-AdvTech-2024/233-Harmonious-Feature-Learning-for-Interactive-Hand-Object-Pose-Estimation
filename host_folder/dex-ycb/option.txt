@@ -1,0 +1,41 @@
+====== Options ======
+HO3D_root: /data1/zhifeng/ho3d_v2
+blocks: 1
+channels: 256
+dex_ycb_root: /home/dell/Vscode/dataset/DexYCB/data
+epochs: 40
+evaluate: False
+host_folder: host_folder/dex-ycb
+inp_res: 256
+lambda_joints2d: 100.0
+lambda_objects: 500.0
+lr: 0.0001
+lr_decay_gamma: 0.7
+lr_decay_step: 5
+mano_lambda_joints3d: 10000.0
+mano_lambda_manopose: 10
+mano_lambda_manoshape: 0.1
+mano_lambda_regulpose: 0.0
+mano_lambda_regulshape: 0.0
+mano_lambda_verts3d: 10000.0
+mano_neurons: [1024, 512]
+mano_root: assets/mano_models
+manual_seed: 0
+momentum: 0.9
+network: honet_transformer
+obj_model_root: assets/object_models
+resume: None
+save_results: False
+snapshot: 2
+stacks: 1
+test_batch: 64
+test_freq: 5
+train_batch: 64
+transformer_depth: 1
+transformer_head: 4
+use_cuda: 1
+use_ho3d: False
+weight_decay: 0.0005
+workers: 16
+=====================
+launched traineval.py at 2024-11-23 19:55:17.908852
